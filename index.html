@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic profile of Dr Pooja Selena Rao, doctoral researcher in transport engineering, sustainable mobility, behavioral modeling and public policy." />
   <title>Dr Pooja Selena Rao</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <div class="brand">Dr Pooja Selena Rao</div>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top">Dr Pooja Selena Rao</a>
       <div class="links">
         <a href="#biography">Biography</a>
         <a href="#research">Research</a>
@@ -19,69 +20,77 @@
       </div>
     </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Transport Engineering · Sustainable Mobility · Behavioral modeling</p>
-      <h1>Dr Pooja Selena Rao</h1>
-      <h2>Doctoral Researcher in Transport Engineering and Modeling</h2>
-      <p class="institution">Imperial College London</p>
-      <p class="summary">
-        Researching the behavioral adoption of emerging mobility technologies through
-        interdisciplinary approaches spanning engineering, economics, data analytics and public policy.
-      </p>
+    <section id="top" class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Transport Engineering · Sustainable Mobility · Behavioral Modeling</p>
+        <h1>Dr Pooja Selena Rao</h1>
+        <h2>Doctoral Researcher in Transport Engineering and Modeling</h2>
+        <p class="institution">Imperial College London</p>
+        <div class="accent-line"></div>
+        <p class="summary">
+          Researching the behavioral adoption of emerging mobility technologies through
+          interdisciplinary approaches spanning engineering, economics, data analytics and public policy.
+        </p>
+      </div>
+      <figure class="hero-photo">
+        <img src="pooja-rao.jpg" alt="Portrait of Dr Pooja Selena Rao" />
+      </figure>
     </section>
   </header>
 
   <main>
-    <section id="biography" class="section">
-      <h2>Biography</h2>
-      <p>
-        Dr Pooja Selena Rao is a doctoral researcher at the Centre for Transport Engineering and
-        modeling within the Department of Civil and Environmental Engineering at Imperial College London.
-        Since 2021, her doctoral research has been supported by the Dixon Scholarship.
-      </p>
-      <p>
-        Her research investigates the behavioral and policy dimensions of Shared Automated Electric
-        Vehicles (SAEVs), with particular emphasis on understanding the psychological, social and economic
-        factors influencing technology adoption in London. Her work combines behavioral modeling,
-        transport engineering, data analytics and public policy to develop evidence-based recommendations
-        for sustainable urban mobility.
-      </p>
-      <p>
-        Her research has been presented at international conferences on transport, climate change,
-        environmental sustainability and future smart cities. Her conference proceedings have been published
-        in Springer Nature’s <em>Advances in Science, Technology & Innovation</em> series.
-      </p>
-      <p>
-        Her recent work, published in Elsevier’s <em>Transportation Research Interdisciplinary Perspectives</em>,
-        develops a hybrid modeling framework for analysing community-wide adoption of Shared Automated
-        Electric Vehicles and evaluating policy interventions that encourage sustainable transport transitions.
-      </p>
-    </section>
-
-    <section id="research" class="section alt">
-      <h2>Research Interests</h2>
-      <div class="grid">
-        <span>Shared Automated Electric Vehicles</span>
-        <span>Sustainable transport systems</span>
-        <span>behavioral modeling</span>
-        <span>Technology adoption</span>
-        <span>Transport policy</span>
-        <span>Smart cities</span>
-        <span>Environmental sustainability</span>
-        <span>Data analytics</span>
+    <section id="biography" class="section two-column">
+      <div>
+        <h2>Biography</h2>
+        <p>
+          Dr Pooja Selena Rao is a doctoral researcher at the Centre for Transport Engineering and
+          Modeling within the Department of Civil and Environmental Engineering at Imperial College London.
+          Since 2021, her doctoral research has been supported by the Dixon Scholarship.
+        </p>
+        <p>
+          Her research investigates the behavioral and policy dimensions of Shared Automated Electric
+          Vehicles (SAEVs), with particular emphasis on understanding the psychological, social and economic
+          factors influencing technology adoption in London. Her work combines behavioral modeling,
+          transport engineering, data analytics and public policy to develop evidence-based recommendations
+          for sustainable urban mobility.
+        </p>
+        <p>
+          Her research has been presented at international conferences on transport, climate change,
+          environmental sustainability and future smart cities. Her conference proceedings have been published
+          in Springer Nature’s <em>Advances in Science, Technology & Innovation</em> series.
+        </p>
+        <p>
+          Her recent work, published in Elsevier’s <em>Transportation Research Interdisciplinary Perspectives</em>,
+          develops a hybrid modeling framework for analyzing community-wide adoption of Shared Automated
+          Electric Vehicles and evaluating policy interventions that encourage sustainable transport transitions.
+        </p>
       </div>
+      <aside id="research" class="research-card">
+        <h2>Research Interests</h2>
+        <div class="grid">
+          <span>Shared Automated Electric Vehicles</span>
+          <span>Sustainable transport systems</span>
+          <span>Behavioral modeling</span>
+          <span>Technology adoption</span>
+          <span>Transport policy</span>
+          <span>Smart cities</span>
+          <span>Environmental sustainability</span>
+          <span>Data analytics</span>
+          <span>Behavioral economics</span>
+        </div>
+      </aside>
     </section>
 
-    <section class="section">
-  <h2>Education</h2>
-  <ul class="timeline">
-    <li><strong>PhD, Transport Engineering and Modeling</strong>, Imperial College London</li>
-    <li><strong>MRes Financial Computing & Analytics</strong></li>
-    <li><strong>MSc Financial Engineering</strong></li>
-    <li><strong>MSc Finance</strong></li>
-    <li><strong>BSc Chemistry</strong></li>
-  </ul>
-</section>
+    <section class="section compact">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li><strong>PhD, Transport Engineering and Modeling</strong>, Imperial College London</li>
+        <li><strong>MRes Financial Computing & Analytics</strong>, Imperial College London and University College London</li>
+        <li><strong>MSc Financial Engineering</strong></li>
+        <li><strong>MSc Finance</strong></li>
+        <li><strong>BSc Chemistry</strong>, University of Bristol</li>
+      </ul>
+    </section>
 
     <section id="publications" class="section alt">
       <h2>Publications and Research Output</h2>
@@ -102,7 +111,7 @@
         Prior to her doctoral research, Dr Rao worked across quantitative finance, behavioral finance and
         financial engineering. Her earlier research examined behavioral influences on portfolio allocation,
         multivariate GARCH models for financial market volatility, and cryptocurrency market microstructure,
-        including blockchain ownership dynamics and Bitcoin exchange behaviour.
+        including blockchain ownership dynamics and Bitcoin exchange behavior.
       </p>
     </section>
 
@@ -130,7 +139,7 @@
       </ul>
     </section>
 
-    <section id="contact" class="section contact">
+    <section id="contact" class="section contact alt">
       <h2>Contact</h2>
       <p>Professional enquiries are welcome.</p>
       <p class="note">Add your preferred email, ORCID, Google Scholar, LinkedIn or CV link here.</p>
