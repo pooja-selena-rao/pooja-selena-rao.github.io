@@ -58,8 +58,8 @@ h1,h2,.brand{font-family:Georgia, "Times New Roman", serif}
   margin:0 auto;
   padding:72px 28px 78px;
   display:grid;
-  grid-template-columns:minmax(0, 1.25fr) 360px;
-  gap:72px;
+  grid-template-columns:1fr 320px;
+  gap:80px;
   align-items:center;
 }
 
@@ -74,7 +74,7 @@ h1,h2,.brand{font-family:Georgia, "Times New Roman", serif}
 
 h1{
   margin:0;
-  font-size:clamp(3.2rem, 5.2vw, 4.6rem);
+  font-size:clamp(3.2rem, 4.7vw, 4.3rem);
   line-height:1.02;
   letter-spacing:-.03em;
 }
@@ -116,7 +116,7 @@ h1{
 .hero-photo img{
   display:block;
   width:100%;
-  max-width:360px;
+  max-width:320px;
   height:auto;
   object-fit:contain;
   border-radius:20px;
