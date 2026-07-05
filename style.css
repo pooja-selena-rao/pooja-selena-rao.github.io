@@ -40,10 +40,20 @@ h1,h2,.brand{font-family:Georgia, "Times New Roman", serif}
 }
 
 .brand{
-  color:var(--white);
+  display:flex;
+  align-items:center;
   text-decoration:none;
-  font-weight:700;
-  font-size:1.05rem;
+}
+
+.brand img{
+  display:block;
+  height:52px;
+  width:auto;
+  transition:transform .25s ease;
+}
+
+.brand:hover img{
+  transform:scale(1.04);
 }
 
 .links{display:flex;gap:28px;flex-wrap:wrap}
