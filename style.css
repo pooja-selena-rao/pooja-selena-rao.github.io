@@ -70,7 +70,7 @@ h1,h2,.brand{font-family:Georgia, "Times New Roman", serif}
   padding:76px 28px 84px;
   display:grid;
   grid-template-columns:1fr 360px;
-  gap:80px;
+  gap:70px;
   align-items:center;
 }
 
